@@ -1,0 +1,9 @@
+
+git remote set-url origin git@github.com:username/repo.git
+
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/ida_rsa
